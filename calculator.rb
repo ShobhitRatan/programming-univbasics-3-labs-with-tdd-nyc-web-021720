@@ -26,3 +26,21 @@ def difference(first_number, second_number)
   value = second_number - first_number
   puts value
 end
+
+difference(2,4)
+
+# Product of two numbers.
+def product(first_number, second_number)
+  value = first_number * second_number
+  puts value
+end
+
+product(2,4)
+
+# Quotient of two numbers.
+def quotient(first_number, second_number)
+  value = second_number / first_number
+  puts value
+end
+
+quotient(2,4)
