@@ -1,46 +1,8 @@
 # Add your variables here
 # Value for the 1st number.
-def first_number(value)
-  puts value
-end
-
-first_number(2)
-
-# Value for the second number
-def second_number(value)
-  puts value
-end
-
-second_number(4)
-
-# Sum of two values.
-def sum(first_number, second_number)
-  value = first_number + second_number
-  puts value
-end
-
-sum(2,4)
-
-# Difference of two values.
-def difference(first_number, second_number)
-  value = second_number - first_number
-  puts value
-end
-
-difference(2,4)
-
-# Product of two numbers.
-def product(first_number, second_number)
-  value = first_number * second_number
-  puts value
-end
-
-product(2,4)
-
-# Quotient of two numbers.
-def quotient(first_number, second_number)
-  value = second_number / first_number
-  puts value
-end
-
-quotient(2,4)
+first_number = 'Hello_world'
+second_number = 4
+sum = first_number + second_number
+difference = second_number - first_number
+product = first_number * second_number
+quotient = second_number / first_number
